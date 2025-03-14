@@ -1,0 +1,31 @@
+aaaa
+ii
+ii | grep -i 'wsock32.dll  send'
+ii | grep -i socket
+ii | grep -i htons
+ii | grep -i WS2_32.dll
+iE
+afl | grep -v -e fcn -e sub
+afl | grep request
+afl | grep -i http
+afl | grep -i usb
+izz | grep -i 'ms shell dlg'
+izz | grep GET
+izz | grep -i mail
+izz | grep -iI HKEY_
+izz | grep -iI cmdline
+izz | grep -iI cpp
+izz | grep -iI registration
+izz | grep -iI e-mail
+izz | grep -i http
+izz | grep -i usb
+izz | grep -Ei [а-яА-Я]
+izz | grep -i password
+izz | grep -i пароль
+izz | grep -i "INSERT INTO"
+izz | grep -i api/
+izz | grep -Ei "://[[:digit:]].+[[:digit:]].+[[:digit:]].+[[:digit:]]{4}"
+izz | grep -Ei "[[:digit:]].+[[:digit:]].+[[:digit:]].+[[:digit:]]{4}:"
+izz | grep -i 'Network error'
+izz | grep WINHTTP_FLAG_SECURE
+izz | grep -i Bluetooth
